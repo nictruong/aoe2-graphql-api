@@ -1,0 +1,29 @@
+type Unit {
+	id: ID
+	name: String
+	description: String
+	expansion: String
+	age: String
+	created_in: String
+	cost: Cost
+	build_time: Int
+	reload_time: Float
+	attack_delay: Float
+	movement_rate: Float
+	line_of_sight: Int
+	range: String
+	attacK: Int
+	armor: String
+	attack_bonus: [String]
+	armor_bonus: [String]
+	search_radius: Int
+	accuracy: String
+	blast_radius: Float
+}
+
+type Cost {
+	Wood: Int
+	Food: Int
+	Stone: Int
+	Gold: Int
+}

@@ -1,0 +1,11 @@
+type Civilization {
+	id: ID
+	name: String
+	expansion: String
+	army_type: String
+	unique_unit: [String]
+	uniqueUnit: [Unit]
+	unique_tech: [String]
+	team_bonus: String
+	civilization_bonus: [String]
+}
