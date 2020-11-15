@@ -7,7 +7,7 @@
 		"build": "webpack --config webpack.production.js",
 		"dev": "webpack --config webpack.development.js",
 		"start": "node dist/server",
-		"prestart": "npm run build",
+		"prestart": "npm install && npm run build",
 		"graphql:types": "graphql-codegen --config codegen.yml"
 	},
 	"keywords": [],
